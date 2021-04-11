@@ -1,0 +1,24 @@
+{
+    background-color: cadetblue;
+}
+
+h1 {
+    background-color: bisque;
+    color: crimson;
+}
+
+body {
+    background-color: rgb(34, 188, 235);
+}
+
+.font-red {
+    color: maroon;
+}
+
+.bg-spec {
+    background-color: mediumpurple;
+}
+
+#unique {
+    border: 2px solid black;
+}

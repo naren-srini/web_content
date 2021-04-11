@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Form Fields</title>
+</head>
+
+<body>
+    <form method="GET" action="external_css.html">
+        <div>
+            <label for="firstname"> First Name </label>
+            <input required="required" type="text" id="firstname" name="firstname">
+        </div>
+        <div>
+            <label for="checkbox_field"> Checkbox </label>
+            <input type="checkbox" value="1" name="checkbox">
+        </div>
+        <div>
+            <label> Radio Buttons </label>
+            <input type="radio" id="radio_test"> 1
+            <input type="radio" id="radio_test"> 2
+            <input type="radio" id="radio_test"> 3
+        </div>
+        <div>
+            <label for="">Date</label>
+            <input type="date" name="date">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="">Hidden Element</label>
+            <input type="hidden" name="hidden" value="hidden">
+        </div>
+        <div>
+            <label for="">Number</label>
+            <input type="number" name="number" step="1" max="100" min="0">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" name="password" placeholder="Ghost Text">
+            <!-- Placeholder is a kind of default text that shows up behind as default-->
+        </div>
+        <div>
+            <label for="">URL</label>
+            <input type="url" name="url" value="https://www.google.com/">
+        </div>
+        <div>
+            <label for="">File Upload</label>
+            <input type="file" name="file" value="">
+        </div>
+        <div>
+            <label for=""></label>
+            <input type="submit" name="submit" value="Any text for a Button">
+        </div>
+    </form>
+</body>
+
+</html>
