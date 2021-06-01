@@ -1,0 +1,72 @@
+{
+    "git.suggestSmartCommit": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "html.format.templating": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeAction.showDocumentation": {
+
+        "enable": true
+    },
+    "jshint.lintHTML": true,
+    "jshint.exclude": {
+    
+    },
+    
+    "jshint.options": {
+        "esversion":9,
+    },
+    
+    "eslint.options": {
+        "useEslintlrc": false,
+    "env":{
+        "browser":true,
+        "node":true,
+        "es9":true
+    },
+
+    "plugins": ["react"],
+
+    "ecmaFeatures": {
+        "arrowFunctions": true,
+        "binaryLiterals": true,
+        "blockBindings": true,
+        "classes": true,
+        "defaultParams": true,
+        "destructuring": true,
+        "forOf": true,
+        "generators": true,
+        "modules": true,
+        "objectLiteralComputedProperties": true,
+        "objectLiteralDuplicateProperties": true,
+        "objectLiteralShorthandMethods": true,
+        "objectLiteralShorthandProperties": true,
+        "octalLiterals": true,
+        "regexUFlag": true,
+        "regexYFlag": true,
+        "spread": true,
+        "superInFunctions": true,
+        "templateStrings": true,
+        "unicodeCodePointEscapes": true,
+        "globalReturn": true,
+        "jsx": true
+      },
+
+      
+
+    "parserOptions": {
+        "ecmaVersion": 2018,       
+        // "ecmaVersion":  6, // or 7,8,9
+    },
+},
+"jshint.config": ""
+    
+}
