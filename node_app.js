@@ -7,11 +7,20 @@ var sayHello = () => {
 sayHey('Naren');
 sayHello();
 
-/* window.console.log("This is a window object");
+console.log(module);
+
+// window.console.log("This is a window object"); //there is no window here
 
 // var message = '';
-// globalThis.setTimeout(1); */
+// globalThis.setTimeout(1); 
 
+/* //node modules
 
+setTimeout(); //Call a function after a delay
+clearTimeout(); //
+setInterval(); //Repeatedly to call a function after a delay
+clearTimeout(); //To stop the function to call itself repeatedly
 
-console.log(module);
+*/
+
+// Notes: Modules in node help us separate concerns regarding scope of variables
